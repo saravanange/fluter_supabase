@@ -29,6 +29,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
     final profileImageUrl = user?.userMetadata?['avatar_url'];
     final fullName = user?.userMetadata?['full_name'];
 
+    print('user-------------------------: ${user?.id}');
+
     return Scaffold(
       appBar: AppBar(
         title: const Text('Profile'),

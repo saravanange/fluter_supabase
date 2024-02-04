@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:fluter_supabase/constants.dart';
 import 'package:http/http.dart' as http;
 
 import '../models/task.dart';
@@ -8,7 +9,7 @@ class ApiService {
   static Future<List<Task>> fetchTasks(String userId) async {
     try {
       final apiUrl =
-          'https://preview.zenhustles.com/api/hustles/get-current-week-tasks?userId=$userId';
+          '${Constants.apiBaseURL}/api/hustles/get-current-week-tasks?userId=$userId';
       final response = await http.get(Uri.parse(apiUrl));
       print('Fetching tasks: ${response.body}');
 

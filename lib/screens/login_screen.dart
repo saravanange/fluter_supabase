@@ -1,3 +1,4 @@
+import 'package:fluter_supabase/constants.dart';
 import 'package:fluter_supabase/screens/profile_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
@@ -35,8 +36,7 @@ class _LoginScreenState extends State<LoginScreen> {
     /// TODO: update the Web client ID with your own.
     ///
     /// Web Client ID that you registered with Google Cloud.
-    const webClientId =
-        '478432004528-fke5arc4vqug24uhdkb9jvc8ehgs0gh3.apps.googleusercontent.com';
+    const webClientId = Constants.googleSignInClientId;
 
     /// TODO: update the iOS client ID with your own.S
     ///
