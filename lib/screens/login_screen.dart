@@ -1,7 +1,6 @@
+import 'package:fluter_supabase/screens/profile_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:fluter_supabase/main.dart';
-import 'package:fluter_supabase/profile_screen.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
 class LoginScreen extends StatefulWidget {

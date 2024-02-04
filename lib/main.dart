@@ -1,6 +1,6 @@
+import 'package:fluter_supabase/screens/login_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
-import 'package:fluter_supabase/login_screen.dart';
 
 void main() async {
   /// TODO: update Supabase credentials with your own
